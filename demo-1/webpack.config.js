@@ -34,7 +34,7 @@ module.exports = {
     plugins: [
         new webpack.ProvidePlugin({
             __: 'lodash',
-            _concat: ['lodash', 'concat']
+            '$':'jquery'
         }),
         new HtmlWebpackPlugin({
             title: 'webpack-demo-1',
